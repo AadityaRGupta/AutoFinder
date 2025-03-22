@@ -1,0 +1,274 @@
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 154px;
+    width: 430px;
+    height: 1227px;
+  }
+  .upper-box {
+    position: absolute;
+    top: 0;
+    left: 154px;
+    background-color: var(--color-darkslategray);
+    backdrop-filter: blur(4px);
+    width: 430px;
+    height: 117px;
+  }
+  .autofinder {
+    position: absolute;
+    top: 76px;
+    left: calc(50% - 119.5px);
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--color-orange);
+  }
+  .enter-vehicle-details {
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 158.5px);
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .next-box {
+    position: absolute;
+    top: 780px;
+    left: 308px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: var(--color-orange);
+    width: 118px;
+    height: 32px;
+  }
+  .next {
+    position: absolute;
+    top: 783px;
+    left: 340px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-white);
+  }
+  .make,
+  .type-of-vehicle {
+    position: absolute;
+    top: 210px;
+    left: 189px;
+    font-weight: 500;
+  }
+  .make {
+    top: 257px;
+  }
+  .model {
+    top: 297px;
+    left: calc(50% - 196.5px);
+  }
+  .condition,
+  .model,
+  .year {
+    position: absolute;
+    font-weight: 500;
+  }
+  .year {
+    top: 337px;
+    right: 540px;
+  }
+  .condition {
+    top: 257px;
+    left: 379px;
+  }
+  .accidents,
+  .mileage,
+  .selling-price {
+    position: absolute;
+    top: 296px;
+    left: 386px;
+    font-weight: 500;
+  }
+  .accidents,
+  .selling-price {
+    top: 337px;
+  }
+  .selling-price {
+    top: 383px;
+    left: 201px;
+  }
+  .offers-discounts,
+  .selling-options {
+    position: absolute;
+    top: 544px;
+    left: 185px;
+    font-weight: 500;
+  }
+  .selling-options {
+    top: 656px;
+  }
+  .test-drive-available {
+    top: 504px;
+    left: 180px;
+  }
+  .if-buyer-is,
+  .test-drive-available,
+  .warranty-offered {
+    position: absolute;
+    font-weight: 500;
+  }
+  .warranty-offered {
+    top: 464px;
+    left: 185px;
+  }
+  .if-buyer-is {
+    top: 584px;
+    left: calc(50% - 230.5px);
+  }
+  .box,
+  .box1 {
+    position: absolute;
+    top: 206px;
+    left: 357px;
+    background-color: var(--color-darkslategray);
+    backdrop-filter: blur(4px);
+    width: 140px;
+    height: 25px;
+  }
+  .box1 {
+    top: 383px;
+  }
+  .box2,
+  .box3,
+  .box4 {
+    position: absolute;
+    background-color: var(--color-darkslategray);
+    backdrop-filter: blur(4px);
+    left: 398px;
+    width: 140px;
+    height: 25px;
+  }
+  .box2 {
+    top: 424px;
+    left: 398px;
+    width: 140px;
+  }
+  .box3 {
+    top: 460px;
+  }
+  .box4 {
+    top: 496px;
+  }
+  .box5,
+  .box6 {
+    position: absolute;
+    background-color: var(--color-darkslategray);
+    backdrop-filter: blur(4px);
+    left: 398px;
+    width: 140px;
+    height: 25px;
+  }
+  .box5 {
+    top: 540px;
+  }
+  .box6 {
+    top: 653px;
+  }
+  .box7,
+  .box8,
+  .box9 {
+    position: absolute;
+    background-color: var(--color-darkslategray);
+    backdrop-filter: blur(4px);
+    height: 25px;
+  }
+  .box7 {
+    top: 610px;
+    left: 171px;
+    width: 140px;
+  }
+  .box8,
+  .box9 {
+    top: 294px;
+    left: calc(50% - 116.5px);
+    border-radius: var(--br-8xs);
+    width: 78px;
+  }
+  .box9 {
+    top: 256px;
+  }
+  .box10,
+  .box11,
+  .box12,
+  .box13 {
+    position: absolute;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-darkslategray);
+    backdrop-filter: blur(4px);
+    width: 78px;
+    height: 25px;
+  }
+  .box10 {
+    top: 256px;
+    left: calc(50% + 97.5px);
+  }
+  .box11 {
+    top: 294px;
+    left: calc(50% + 97.5px);
+  }
+  .box12,
+  .box13 {
+    top: 333px;
+  }
+  .box12 {
+    left: calc(50% + 97.5px);
+  }
+  .box13 {
+    left: calc(50% - 116.5px);
+  }
+  .this-is-your {
+    position: absolute;
+    top: 850px;
+    left: 164px;
+    font-size: var(--font-size-3xs);
+    font-weight: 500;
+    color: var(--color-white);
+    display: inline-block;
+    width: 399px;
+  }
+  .state-if-you {
+    margin: 0;
+  }
+  .clearly-indicate-if,
+  .state-if-you-lines {
+    position: absolute;
+    top: 887px;
+    left: 164px;
+    font-size: var(--font-size-3xs);
+    font-weight: 500;
+    color: var(--color-white);
+  }
+  .clearly-indicate-if {
+    top: 942px;
+    display: inline-block;
+    width: 416px;
+    height: 39px;
+  }
+  .contact-information {
+    position: absolute;
+    top: 424px;
+    left: 171px;
+    font-weight: 500;
+  }
+  .task6-screen2-frame {
+    position: absolute;
+    top: 0;
+    left: -154px;
+    width: 771px;
+    height: 1577px;
+  }
+  .original-task6-frame {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    height: 1087px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-montagu-slab);
+  }

@@ -1,0 +1,114 @@
+.background-img {
+    position: absolute;
+    top: 0;
+    left: 152px;
+    width: 432px;
+    height: 1092px;
+  }
+  .upper-box {
+    position: absolute;
+    top: 0;
+    left: 154px;
+    background-color: var(--color-darkslategray);
+    backdrop-filter: blur(4px);
+    width: 430px;
+    height: 117px;
+  }
+  .autofinder {
+    position: absolute;
+    top: 76px;
+    left: calc(50% - 119.5px);
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--color-orange);
+  }
+  .middle-box {
+    position: absolute;
+    top: 286px;
+    left: 164px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+    border-radius: var(--br-xl);
+    background-color: var(--color-darkslategray);
+    backdrop-filter: blur(4px);
+    width: 407px;
+    height: 161px;
+  }
+  .would-you-like {
+    position: absolute;
+    top: 310px;
+    left: calc(50% - 206.5px);
+    font-weight: 500;
+    display: inline-block;
+    width: 380px;
+    height: 42px;
+    margin: 0;
+  }
+  .review {
+    position: absolute;
+    top: 151px;
+    left: calc(50% - 71.5px);
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .left-box,
+  .right-box {
+    position: absolute;
+    top: 386px;
+    left: 179px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-xl);
+    background-color: var(--color-orange);
+    width: 151px;
+    height: 27px;
+  }
+  .right-box {
+    left: 386px;
+  }
+  .continue,
+  .review1 {
+    position: absolute;
+    top: 389px;
+    left: 223px;
+    font-weight: 500;
+    color: var(--color-white);
+  }
+  .continue {
+    left: 412px;
+  }
+  .left-icon,
+  .right-icon {
+    position: absolute;
+    height: 0.37%;
+    width: 1.56%;
+    top: 25.17%;
+    bottom: 74.46%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .right-icon {
+    right: 33.59%;
+    left: 64.85%;
+  }
+  .left-icon {
+    right: 71.98%;
+    left: 26.46%;
+  }
+  .task6-screen4-frame {
+    position: absolute;
+    top: 0;
+    left: -154px;
+    width: 771px;
+    height: 1577px;
+  }
+  .original-task6-frame {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    height: 1087px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-montagu-slab);
+  }

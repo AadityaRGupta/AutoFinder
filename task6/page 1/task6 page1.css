@@ -1,0 +1,416 @@
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 154px;
+  width: 430px;
+  height: 1077px;
+}
+.upper-box {
+  position: absolute;
+  top: 0;
+  left: 154px;
+  backdrop-filter: blur(4px);
+  background-color: var(--color-darkslategray);
+  width: 430px;
+  height: 117px;
+}
+.autofinder {
+  position: absolute;
+  top: 76px;
+  left: calc(50% - 119.5px);
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-orange);
+}
+.sell-your-vehicle {
+  position: absolute;
+  top: 148px;
+  left: calc(50% - 146.5px);
+  font-size: 28px;
+  font-weight: 600;
+}
+.active-listings,
+.recent-inquires {
+  position: absolute;
+  top: 207px;
+  left: 169px;
+  font-weight: 500;
+}
+.recent-inquires {
+  top: 251px;
+  left: 168px;
+}
+.reply-box,
+.next-box,
+.new-listing-box,
+.edit-profile-box,
+.settiings-box {
+  position: absolute;
+  top: 313px;
+  left: 386px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 151px;
+  height: 24px;
+}
+.reply-box,
+.next-box,
+.new-listing-box,
+.settiings-box {
+  top: 204px;
+  left: 420px;
+  height: 27px;
+}
+.reply-box,
+.next-box,
+.settiings-box {
+  top: 313px;
+  left: 169px;
+  width: 164px;
+  height: 24px;
+}
+.reply-box,
+.next-box {
+  top: 251px;
+  left: 434px;
+  width: 122px;
+  height: 27px;
+}
+.next-box {
+  top: 979px;
+  left: 313px;
+  width: 118px;
+  height: 32px;
+}
+.next {
+  position: absolute;
+  top: 982px;
+  left: 342px;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-weight: 500;
+}
+.performance-analytics {
+  position: absolute;
+  top: 400px;
+  left: calc(50% - 119.5px);
+  font-weight: 500;
+}
+.number-box,
+.number-box1 {
+  position: absolute;
+  top: 205px;
+  left: calc(50% - 69.5px);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslategray);
+  width: 78px;
+  height: 25px;
+}
+.number-box1 {
+  top: 251px;
+}
+.vertical-line {
+  position: absolute;
+  top: 617px;
+  left: 201px;
+  width: 318px;
+  height: 1px;
+}
+.horizontal-line {
+  position: absolute;
+  top: 440.5px;
+  left: 200.5px;
+  width: 1px;
+  height: 178px;
+}
+.total-earnings,
+.total-sales {
+  position: absolute;
+  top: 622px;
+  left: 286px;
+}
+.total-earnings {
+  top: 604.22px;
+  left: 164.4px;
+  transform: rotate(-90.6deg);
+  transform-origin: 0 0;
+}
+.sales-box {
+  position: absolute;
+  top: 479px;
+  left: 204px;
+  background-color: rgba(192, 11, 23, 0.86);
+  width: 53px;
+  height: 138px;
+}
+.sales-box1,
+.sales-box2,
+.sales-box3,
+.sales-box4 {
+  position: absolute;
+  top: 515px;
+  left: 263px;
+  background-color: var(--color-firebrick-100);
+  width: 53px;
+  height: 102px;
+}
+.sales-box2,
+.sales-box3,
+.sales-box4 {
+  top: 577px;
+  left: 322px;
+  height: 40px;
+}
+.sales-box3,
+.sales-box4 {
+  top: 536px;
+  left: 381px;
+  height: 81px;
+}
+.sales-box4 {
+  top: 492px;
+  left: 444px;
+  height: 125px;
+}
+.k,
+.k1,
+.k2,
+.k3,
+.k4 {
+  position: absolute;
+  top: 464px;
+  left: 218px;
+  font-size: var(--font-size-xs);
+}
+.k1,
+.k2,
+.k3,
+.k4 {
+  top: 499px;
+  left: 273px;
+}
+.k2,
+.k3,
+.k4 {
+  top: 562px;
+  left: 340px;
+}
+.k3,
+.k4 {
+  top: 521px;
+  left: 395px;
+}
+.k4 {
+  top: 477px;
+  left: 458px;
+}
+.number,
+.number1,
+.number2,
+.number3 {
+  position: absolute;
+  top: 610px;
+  left: 189px;
+  font-size: var(--font-size-5xs);
+}
+.number1,
+.number2,
+.number3 {
+  top: 572px;
+}
+.number2,
+.number3 {
+  top: 509px;
+  left: 185px;
+}
+.number3 {
+  top: 474px;
+}
+.number4,
+.number5 {
+  position: absolute;
+  top: 207px;
+  left: 349px;
+  color: var(--color-white);
+}
+.number5 {
+  top: 254px;
+}
+.edit-profile,
+.go-to-settings,
+.new-listing {
+  position: absolute;
+  top: 315px;
+  left: 196px;
+  font-weight: 500;
+  color: var(--color-white);
+}
+.edit-profile,
+.new-listing {
+  left: 423px;
+}
+.new-listing {
+  top: 206px;
+  left: 455px;
+}
+.reply {
+  top: 254px;
+  left: 480px;
+}
+.link-box {
+  position: absolute;
+  top: 685px;
+  left: 163px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslategray);
+  width: 408px;
+  height: 215px;
+}
+.help-support,
+.reply,
+.seller-guidelines,
+.suggested-links {
+  position: absolute;
+  font-weight: 500;
+  color: var(--color-white);
+}
+.suggested-links {
+  top: 697px;
+  left: calc(50% - 107.5px);
+  font-size: var(--font-size-xl);
+}
+.help-support,
+.seller-guidelines {
+  top: 734px;
+  left: 185px;
+}
+.seller-guidelines {
+  left: 395px;
+}
+.faqs,
+.privacy-agreement,
+.promotions-advertising,
+.terms-conditions {
+  position: absolute;
+  top: 773px;
+  left: 174px;
+  font-weight: 500;
+  color: var(--color-white);
+}
+.faqs,
+.privacy-agreement,
+.promotions-advertising {
+  left: 386px;
+}
+.faqs,
+.promotions-advertising {
+  top: 812px;
+  left: 250px;
+}
+.faqs {
+  top: 851px;
+  left: 349px;
+}
+.arrow-sign1,
+.arrow-sign2,
+.arrow-sign3,
+.arrow-sign4,
+.arrow-sign5,
+.arrow-sign {
+  position: absolute;
+  height: 0.37%;
+  width: 1.56%;
+  top: 49.65%;
+  right: 52.53%;
+  bottom: 49.98%;
+  left: 45.91%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.arrow-sign1,
+.arrow-sign2,
+.arrow-sign3,
+.arrow-sign4,
+.arrow-sign5 {
+  top: 47.18%;
+  right: 27.76%;
+  bottom: 52.45%;
+  left: 70.69%;
+}
+.arrow-sign2,
+.arrow-sign3,
+.arrow-sign4,
+.arrow-sign5 {
+  top: 52.12%;
+  right: 35.8%;
+  bottom: 47.51%;
+  left: 62.65%;
+}
+.arrow-sign3,
+.arrow-sign4,
+.arrow-sign5 {
+  top: 47.18%;
+  right: 56.42%;
+  bottom: 52.45%;
+  left: 42.02%;
+}
+.arrow-sign4,
+.arrow-sign5 {
+  top: 54.6%;
+  right: 46.69%;
+  bottom: 45.03%;
+  left: 51.75%;
+}
+.arrow-sign5 {
+  top: 49.65%;
+  right: 26.33%;
+  bottom: 49.98%;
+  left: 72.11%;
+}
+.user-icon {
+  position: absolute;
+  top: 313px;
+  left: 394px;
+  width: 24px;
+  height: 24px;
+}
+.add-icon,
+.setting-icon {
+  position: absolute;
+  top: 316px;
+  left: 174px;
+  width: 18px;
+  height: 18px;
+}
+.add-icon {
+  top: 208px;
+  left: 435px;
+}
+.message-icon {
+  position: absolute;
+  top: 255px;
+  left: 455px;
+  width: 22px;
+  height: 22px;
+}
+.task6-screen1-frame {
+  position: absolute;
+  top: 0;
+  left: -154px;
+  width: 771px;
+  height: 1577px;
+}
+.original-task6-frame {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1087px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-montagu-slab);
+}

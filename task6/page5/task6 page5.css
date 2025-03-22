@@ -1,0 +1,101 @@
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 152px;
+    width: 432px;
+    height: 1092px;
+  }
+  .upper-box {
+    position: absolute;
+    top: 0;
+    left: 154px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(60, 60, 60, 0.5);
+    width: 430px;
+    height: 117px;
+  }
+  .autofinder {
+    position: absolute;
+    top: 76px;
+    left: calc(50% - 119.5px);
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--color-orange);
+  }
+  .review {
+    position: absolute;
+    top: 151px;
+    left: calc(50% - 71.5px);
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .congratulations {
+    position: absolute;
+    top: 283px;
+    left: calc(50% - 126.5px);
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .explore-more-box {
+    position: absolute;
+    top: 576px;
+    left: calc(50% - 114.5px);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: var(--color-orange);
+    width: 197px;
+    height: 32px;
+  }
+  .explore-more {
+    position: absolute;
+    top: 579px;
+    left: calc(50% - 91.5px);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-white);
+  }
+  .your-listing-has {
+    margin: 0;
+  }
+  .your-listing-has-lines {
+    position: absolute;
+    top: 324px;
+    left: calc(50% - 210.5px);
+    font-size: 16px;
+    text-align: center;
+  }
+  .your-listing-details-lines {
+    position: absolute;
+    top: 462px;
+    left: 199px;
+    text-align: center;
+  }
+  .taking-you-back,
+  .thank-you-for {
+    position: absolute;
+    top: 551px;
+    left: calc(50% - 153.5px);
+  }
+  .taking-you-back {
+    top: 686px;
+    left: calc(50% - 126.5px);
+    font-size: 12px;
+  }
+  .task6-screen5-frame {
+    position: absolute;
+    top: 0;
+    left: -154px;
+    width: 771px;
+    height: 1577px;
+  }
+  .original-task6-frame {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    height: 1087px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+    font-family: var(--font-montagu-slab);
+  }

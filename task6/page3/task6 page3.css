@@ -1,0 +1,232 @@
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 154px;
+    width: 430px;
+    height: 1082px;
+  }
+  .upper-box {
+    position: absolute;
+    top: 0;
+    left: 154px;
+    background-color: var(--color-darkslategray);
+    backdrop-filter: blur(4px);
+    width: 430px;
+    height: 117px;
+  }
+  .autofinder {
+    position: absolute;
+    top: 76px;
+    left: calc(50% - 119.5px);
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--color-orange);
+  }
+  .upload-photos {
+    position: absolute;
+    top: 151px;
+    left: calc(50% - 115.5px);
+    color: var(--color-black);
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .describe-the-condition {
+    position: absolute;
+    top: 200px;
+    left: 164px;
+    color: var(--color-black);
+    font-size: var(--font-size-base);
+    font-weight: 500;
+  }
+  .next-box {
+    position: absolute;
+    top: 854px;
+    left: calc(50% - 75.5px);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-xl);
+    background-color: var(--color-orange);
+    width: 118px;
+    height: 32px;
+  }
+  .next {
+    position: absolute;
+    top: 857px;
+    left: 343px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .describe-box,
+  .feature-box {
+    position: absolute;
+    top: 227px;
+    left: 164px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+    border-radius: var(--br-xl);
+    background-color: var(--color-darkslategray);
+    backdrop-filter: blur(4px);
+    width: 363px;
+    height: 130px;
+  }
+  .feature-box {
+    top: 603px;
+    left: 160px;
+    width: 406px;
+  }
+  .write-a-brief {
+    margin: 0;
+  }
+  .attach-the-vehicle,
+  .write-a-brief-lines {
+    position: absolute;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    color: var(--color-black);
+  }
+  .write-a-brief-lines {
+    top: 535px;
+    left: calc(50% - 225.5px);
+    display: inline-block;
+    width: 419px;
+    height: 62px;
+  }
+  .attach-the-vehicle {
+    top: 459px;
+    left: 164px;
+  }
+  .box,
+  .box1,
+  .box2,
+  .box3 {
+    position: absolute;
+    top: 486px;
+    left: 164px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-xl);
+    background-color: var(--color-orange);
+    width: 165px;
+    height: 27px;
+  }
+  .box1,
+  .box2,
+  .box3 {
+    top: 370px;
+    left: 357px;
+    width: 151px;
+  }
+  .box2,
+  .box3 {
+    top: 413px;
+  }
+  .box3 {
+    top: 771px;
+    left: 210px;
+    width: 317px;
+  }
+  .key-specifications {
+    position: absolute;
+    top: 376px;
+    left: 164px;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    color: var(--color-black);
+  }
+  .add-features,
+  .write-here,
+  .write-here1 {
+    position: absolute;
+    top: 234px;
+    left: 178px;
+  }
+  .add-features,
+  .write-here1 {
+    top: 610px;
+  }
+  .add-features {
+    top: 416px;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    color: var(--color-black);
+  }
+  .click-here-to,
+  .click-here-to1 {
+    position: absolute;
+    top: 493px;
+    left: 173px;
+  }
+  .click-here-to1 {
+    top: 377px;
+    left: 369px;
+  }
+  .click-here-to2,
+  .click-here-to3 {
+    position: absolute;
+    top: 420px;
+    left: 369px;
+  }
+  .click-here-to3 {
+    top: 777px;
+    left: 220px;
+  }
+  .front-arrow3,
+  .front-arrow,
+  .front-arrow1,
+  .front-arrow2,
+  .back-arrow {
+    position: absolute;
+    height: 0.37%;
+    width: 1.56%;
+    top: 49.60%;
+    right: 30.09%;
+    bottom: 64.62%;
+    left: 64.35%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .front-arrow,
+  .front-arrow1,
+  .front-arrow2,
+  .back-arrow {
+    top: 31.52%;
+    right: 58.88%;
+    bottom: 68.12%;
+    left: 39.56%;
+  }
+  .front-arrow1,
+  .front-arrow2,
+  .back-arrow {
+    top: 27.01%;
+    right: 35.67%;
+    bottom: 72.62%;
+    left: 62.78%;
+  }
+  .front-arrow2,
+  .back-arrow {
+    top: 24.22%;
+    bottom: 75.41%;
+  }
+  .back-arrow {
+    width: 1.83%;
+    top: 6.28%;
+    right: 76.9%;
+    bottom: 93.35%;
+    left: 21.27%;
+  }
+  .task6-screen3-frame {
+    position: absolute;
+    top: 0;
+    left: -154px;
+    width: 771px;
+    height: 1577px;
+  }
+  .original-task6-frame {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    height: 1087px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-white);
+    font-family: var(--font-montagu-slab);
+  }
