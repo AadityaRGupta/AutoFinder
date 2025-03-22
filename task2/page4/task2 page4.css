@@ -1,0 +1,168 @@
+.upper-box,
+.background-image {
+  position: absolute;
+  top: 0;
+}
+.background-image {
+  left: 0;
+  width: 450px;
+  height: 825px;
+}
+.upper-box {
+  left: 18px;
+  background-color: rgba(60, 60, 60, 0.5);
+  backdrop-filter: blur(4px);
+  width: 430px;
+  height: 117px;
+}
+.autofinder {
+  position: absolute;
+  top: 76px;
+  left: calc(50% - 101px);
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-orange);
+}
+.drive-quality-drive,
+.services {
+  position: absolute;
+  top: 651px;
+  left: calc(50% - 150px);
+  font-size: 20px;
+  font-weight: 600;
+}
+.services {
+  top: 151px;
+  left: calc(50% - 55px);
+  font-size: 24px;
+  color: var(--color-black);
+}
+.we-offer-different {
+  margin: 0;
+}
+.select-from,
+.we-offer-different-lines {
+  position: absolute;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.we-offer-different-lines {
+  top: 201px;
+  left: 40px;
+}
+.select-from {
+  top: 262px;
+  left: calc(50% - 52px);
+}
+.financing-box {
+  top: 302px;
+  left: calc(50% - 115px);
+  width: 235px;
+}
+.leasing-box,
+.financing-box,
+.more-options-box {
+  position: absolute;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  height: 36px;
+}
+.leasing-box {
+  top: 357px;
+  left: calc(50% - 115px);
+  width: 235px;
+}
+.more-options-box {
+  top: 440px;
+  left: calc(50% - 77px);
+  width: 159px;
+}
+.apply-for-financing {
+  position: absolute;
+  top: 309px;
+  left: calc(50% - 88px);
+  font-weight: 500;
+}
+.apply-for-leasing {
+  position: absolute;
+  top: 364px;
+  left: calc(50% - 77px);
+}
+.or,
+.pay-in-full {
+  position: absolute;
+  font-weight: 500;
+}
+.or {
+  top: 402px;
+  left: 219px;
+  color: var(--color-black);
+}
+.pay-in-full {
+  top: 447px;
+  left: calc(50% - 42px);
+}
+.arrow-sign1,
+.arrow-sign2,
+.back-arrow-sign,
+.arrow-sign {
+  position: absolute;
+  height: 0.98%;
+  width: 3.05%;
+  top: 38.42%;
+  right: 27.25%;
+  bottom: 60.59%;
+  left: 69.7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.arrow-sign1,
+.arrow-sign2,
+.back-arrow-sign {
+  top: 44.97%;
+  right: 28.55%;
+  bottom: 54.05%;
+  left: 68.4%;
+}
+.arrow-sign2,
+.back-arrow-sign {
+  top: 55.03%;
+  right: 35.69%;
+  bottom: 43.99%;
+  left: 61.26%;
+}
+.back-arrow-sign {
+  height: 1.2%;
+  width: 3.81%;
+  top: 11.76%;
+  right: 89.91%;
+  bottom: 87.04%;
+  left: 6.28%;
+}
+.once-you-select-lines {
+  position: absolute;
+  top: 596px;
+  left: 55px;
+  font-size: 12px;
+  text-align: center;
+}
+.task2-screen4-frame {
+  position: absolute;
+  top: 0;
+  left: -18px;
+  width: 462px;
+  height: 825px;
+}
+.original-task2-frame {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 825px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-montagu-slab);
+}

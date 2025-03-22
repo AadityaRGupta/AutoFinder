@@ -1,0 +1,134 @@
+.upper-box,
+.background-image {
+  position: absolute;
+  top: 0;
+}
+.background-image {
+  left: 0;
+  width: 450px;
+  height: 825px;
+}
+.upper-box {
+  left: 18px;
+  background-color: var(--color-darkslategray);
+  backdrop-filter: blur(4px);
+  width: 430px;
+  height: 117px;
+}
+.autofinder {
+  position: absolute;
+  top: 76px;
+  left: calc(50% - 101px);
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-orange);
+}
+.complete-your-purchase {
+  position: absolute;
+  top: 153px;
+  left: calc(50% - 163px);
+  font-weight: 600;
+  color: #000;
+}
+.lower-box,
+.vehicle-image {
+  position: absolute;
+  top: 220px;
+  left: 29px;
+  border-radius: var(--br-xl);
+  width: 407px;
+}
+.lower-box {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  background-color: var(--color-darkslategray);
+  backdrop-filter: blur(4px);
+  height: 285px;
+}
+.vehicle-image {
+  height: 219.1px;
+}
+.bmw-5-series {
+  top: 439px;
+  left: 29px;
+}
+.bmw-5-series,
+.price,
+.miles {
+  position: absolute;
+  font-weight: 500;
+}
+.miles {
+  top: 470px;
+  left: 30px;
+  font-size: 16px;
+}
+.price {
+  top: 439px;
+  left: 318px;
+}
+.purchase-now-box {
+  position: absolute;
+  top: 532px;
+  left: 130px;
+  box-shadow: 0 4px 4px rgba(18, 18, 18, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 188px;
+  height: 36px;
+}
+.drive-quality-drive,
+.purchase-now {
+  position: absolute;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.purchase-now {
+  top: 537px;
+  left: 137px;
+}
+.drive-quality-drive {
+  top: 651px;
+  left: calc(50% - 150px);
+}
+.arrow-sign {
+  position: absolute;
+  height: 0.98%;
+  width: 3.05%;
+  top: 66.18%;
+  right: 32.88%;
+  bottom: 32.84%;
+  left: 64.06%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.notification-icon,
+.task2-screen1-frame,
+.sign-out-icon {
+  position: absolute;
+  top: 83px;
+  left: 408px;
+  width: 28px;
+  height: 28px;
+}
+.task2-screen1-frame,
+.sign-out-icon {
+  left: 30px;
+}
+.task2-screen1-frame {
+  top: 0;
+  left: -18px;
+  width: 462px;
+  height: 825px;
+}
+.original-task2-frame {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 825px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-montagu-slab);
+}

@@ -1,0 +1,235 @@
+.upper-box,
+.background-image {
+  position: absolute;
+  top: 0;
+}
+.background-image {
+  left: 0;
+  width: 450px;
+  height: 825px;
+}
+.upper-box {
+  left: 18px;
+  background-color: var(--color-darkslategray);
+  backdrop-filter: blur(4px);
+  width: 430px;
+  height: 117px;
+}
+.autofinder {
+  position: absolute;
+  top: 76px;
+  left: calc(50% - 101px);
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-orange);
+}
+.your-purchase-details {
+  position: absolute;
+  top: 144px;
+  left: 89px;
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-black);
+}
+.drive-quality-drive {
+  position: absolute;
+  top: 651px;
+  left: calc(50% - 150px);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.next-box {
+  position: absolute;
+  top: 471px;
+  left: 162px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-color: var(--color-orange);
+  width: 116px;
+  height: 36px;
+}
+.box,
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  position: absolute;
+  top: 188px;
+  left: 312px;
+  background-color: var(--color-darkslategray);
+  backdrop-filter: blur(4px);
+  width: 120px;
+  height: 25px;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  top: 291px;
+}
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  top: 327px;
+}
+.box3,
+.box4,
+.box5,
+.box6 {
+  top: 221px;
+}
+.box4,
+.box5,
+.box6 {
+  top: 361px;
+}
+.box5,
+.box6 {
+  top: 396px;
+}
+.box6 {
+  top: 256px;
+}
+.next,
+.total-cost {
+  position: absolute;
+  font-weight: 500;
+}
+.next {
+  top: 476px;
+  left: 186px;
+  font-size: var(--font-size-xl);
+}
+.total-cost {
+  top: 187px;
+  left: 43px;
+  color: var(--color-black);
+}
+.price,
+.price1,
+.price2,
+.price3 {
+  position: absolute;
+  top: 189px;
+  left: 330px;
+  font-weight: 500;
+}
+.price1,
+.price2,
+.price3 {
+  top: 222px;
+  left: 331px;
+}
+.price2,
+.price3 {
+  top: 258px;
+  left: 352px;
+}
+.price3 {
+  top: 397px;
+  left: 326px;
+}
+.price4,
+.price5,
+.price6,
+.tax-gst,
+.total {
+  position: absolute;
+  top: 361px;
+  left: 353px;
+  font-weight: 500;
+}
+.price5,
+.price6,
+.tax-gst,
+.total {
+  top: 293px;
+  left: 347px;
+}
+.price6,
+.tax-gst,
+.total {
+  top: 328px;
+  left: 345px;
+}
+.tax-gst,
+.total {
+  top: 222px;
+  left: 43px;
+  color: var(--color-black);
+}
+.total {
+  top: 396px;
+  left: 66px;
+  font-size: var(--font-size-xl);
+}
+.accessories,
+.cash-down-payment,
+.handling-fees,
+.trade-in-amount {
+  position: absolute;
+  top: 327px;
+  left: 43px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.accessories,
+.cash-down-payment,
+.trade-in-amount {
+  top: 292px;
+  left: 42px;
+}
+.cash-down-payment,
+.trade-in-amount {
+  top: 361px;
+  left: 43px;
+}
+.cash-down-payment {
+  top: 257px;
+  left: 40px;
+}
+.arrow-sign,
+.back-arrow-sign {
+  position: absolute;
+  height: 0.98%;
+  width: 3.05%;
+  top: 58.79%;
+  right: 44.13%;
+  bottom: 40.23%;
+  left: 52.81%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.back-arrow-sign {
+  height: 1.2%;
+  width: 3.81%;
+  top: 11.76%;
+  right: 89.48%;
+  bottom: 87.04%;
+  left: 6.71%;
+}
+.task2-screen3-frame {
+  position: absolute;
+  top: 0;
+  left: -18px;
+  width: 462px;
+  height: 825px;
+}
+.original-task2-frame {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 825px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-montagu-slab);
+}

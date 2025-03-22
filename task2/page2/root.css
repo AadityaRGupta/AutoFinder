@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-montagu-slab: "Montagu Slab";
+  
+    /* font sizes */
+    --font-size-base: 16px;
+    --font-size-xl: 20px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-darkslategray: rgba(60, 60, 60, 0.5);
+    --color-orange: #ffa600;
+  }
