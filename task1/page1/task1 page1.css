@@ -1,0 +1,335 @@
+.upper-box {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  backdrop-filter: blur(4px);
+  background-color: rgba(60, 60, 60, 0.5);
+  width: 430px;
+  height: 117px;
+}
+.autofinder {
+  position: absolute;
+  top: 76px;
+  left: calc(50% - 99px);
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-orange-100);
+}
+.search-box {
+  position: absolute;
+  top: 153px;
+  left: 29px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 387px;
+  height: 45px;
+  opacity: 0.3;
+}
+.civic {
+  position: absolute;
+  top: 163px;
+  left: 65px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.listing-box {
+  position: absolute;
+  width: 407px;
+  height: 285px;
+  top: 281px;
+  left: 19px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  opacity: 0.8;
+}
+.listing-box1 {
+  position: absolute;
+  top: 600px;
+  left: 19px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  width: 407px;
+  height: 285px;
+  opacity: 0.8;
+}
+.vehicle-img,
+.vehicle-img1 {
+  position: absolute;
+  top: 281px;
+  left: 19px;
+  border-radius: var(--br-xl);
+  width: 407px;
+  height: 219.1px;
+}
+.vehicle-img1 {
+  top: 600px;
+}
+.right-box,
+.left-box {
+  position: absolute;
+  top: 219px;
+  left: 256px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange-100);
+  width: 125px;
+  height: 36px;
+}
+.left-box {
+  top: 217px;
+  left: 50px;
+}
+.filter,
+.sort {
+  position: absolute;
+  top: 222px;
+  left: 87px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-white);
+}
+.sort {
+  top: 224px;
+  left: 300px;
+}
+.filter-icon,
+.search-icon,
+.sort-icon {
+  position: absolute;
+  top: 165px;
+  left: 38px;
+  width: 24px;
+  height: 24px;
+}
+.filter-icon,
+.sort-icon {
+  top: 226px;
+  left: 276px;
+}
+.filter-icon {
+  top: 223px;
+  left: 63px;
+}
+.notification-icon,
+.sign-out-icon {
+  position: absolute;
+  top: 83px;
+  width: 28px;
+  height: 28px;
+}
+.sign-out-icon {
+  left: 14px;
+}
+.notification-icon {
+  left: 404px;
+}
+.home-icon {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  z-index: 0;
+}
+.favorite-icon,
+.menu-icon,
+.search-alt-icon,
+.user-icon {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  z-index: 1;
+}
+.favorite-icon,
+.menu-icon,
+.user-icon {
+  z-index: 2;
+}
+.favorite-icon,
+.menu-icon {
+  z-index: 3;
+}
+.menu-icon {
+  z-index: 4;
+}
+.home {
+  width: 34px;
+  position: absolute;
+  margin: 0 !important;
+  top: 43px;
+  left: 43px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 5;
+}
+.more,
+.profile,
+.saved,
+.search {
+  width: 44px;
+  position: absolute;
+  margin: 0 !important;
+  top: 43px;
+  left: 120px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 7;
+}
+.more,
+.profile,
+.saved {
+  width: 37px;
+  left: 287px;
+  z-index: 8;
+}
+.more,
+.profile {
+  width: 42px;
+  left: 203px;
+  z-index: 9;
+}
+.more {
+  width: 32px;
+  left: 372px;
+  z-index: 10;
+}
+.navigation-bar {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 219px);
+  background-color: #ffb223;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 438px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 10px var(--padding-mini) 45px;
+  gap: 52px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+}
+.honda-civic-ex {
+  top: 819px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.honda-civic-ex,
+.honda-civic-lx,
+.miles,
+.miles1 {
+  position: absolute;
+  left: calc(50% - 197px);
+}
+.honda-civic-lx {
+  top: 500px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.miles,
+.miles1 {
+  top: 844px;
+  font-size: var(--font-size-base);
+}
+.miles1 {
+  top: 524px;
+}
+.price,
+.price1 {
+  position: absolute;
+  top: 819px;
+  left: 310px;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+}
+.price1 {
+  top: 500px;
+}
+.view-details-box1 {
+  position: absolute;
+  top: 859px;
+  left: calc(50% - 57px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange-100);
+  width: 122px;
+  height: 21px;
+}
+.view-details1 {
+  position: absolute;
+  top: 863px;
+  left: 174px;
+  color: var(--color-white);
+}
+.arrow1 {
+  position: absolute;
+  height: 0.41%;
+  width: 3.22%;
+  top: 88.70%;
+  right: 37.65%;
+  bottom: 56.22%;
+  left: 59.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.view-details-box2 {
+  position: absolute;
+  top: 539px;
+  left: calc(50% - 57px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange-100);
+  width: 122px;
+  height: 21px;
+}
+.view-details2 {
+  position: absolute;
+  top: 543px;
+  left: 174px;
+  color: var(--color-white);
+}
+.arrow2 {
+  position: absolute;
+  height: 0.41%;
+  width: 3.22%;
+  top: 55.96%;
+  right: 37.65%;
+  bottom: 72.23%;
+  left: 59.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.save-listing-icon,
+.save-listing-icon1 {
+  position: absolute;
+  top: 291px;
+  left: 391px;
+  width: 25px;
+  height: 25px;
+}
+.save-listing-icon1 {
+  top: 607px;
+  left: 388px;
+}
+.task1-screen1-frame {
+  position: absolute;
+  top: 0;
+  left: -8px;
+  width: 438px;
+  height: 980px;
+}
+.original-task1-frame {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 980px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-montagu-slab);
+}

@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-montagu-slab: "Montagu Slab";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-2xs: 11px;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslategray: rgba(60, 60, 60, 0.5);
+  --color-orange-100: #ffa600;
+  --color-black: #000;
+  --color-gainsboro: #d9d9d9;
+
+  /* Paddings */
+  --padding-mini: 15px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+}
