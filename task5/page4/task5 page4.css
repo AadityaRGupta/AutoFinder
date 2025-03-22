@@ -1,0 +1,565 @@
+.upper-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(4px);
+  background-color: rgba(60, 60, 60, 0.5);
+  width: 430px;
+  height: 117px;
+}
+.autofinder {
+  position: absolute;
+  top: 76px;
+  left: calc(50% - 103px);
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-orange);
+}
+.vehicle-listing-box {
+  position: absolute;
+  top: 152px;
+  left: 11px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  border-radius: var(--br-xl);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 407px;
+  height: 309px;
+  opacity: 0.3;
+}
+.vehicle-image {
+  position: absolute;
+  top: 152px;
+  left: 10px;
+  border-radius: var(--br-xl);
+  width: 407px;
+  height: 219.1px;
+}
+.bmw-330i-sedan {
+  position: absolute;
+  top: 375px;
+  left: calc(50% - 197px);
+  font-size: 22px;
+  font-weight: 600;
+}
+.miles {
+  position: absolute;
+  top: 432px;
+  left: calc(50% - 196px);
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 109px;
+  height: 20px;
+}
+.used {
+  position: absolute;
+  top: 407px;
+  left: 18px;
+  font-size: var(--font-size-base);
+}
+.pricing-box {
+  position: absolute;
+  top: 488px;
+  left: calc(50% - 196px);
+  background-color: var(--color-gainsboro);
+  width: 392px;
+  height: 117px;
+  opacity: 0.5;
+}
+.price {
+  position: absolute;
+  top: 497px;
+  left: 24px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.check-box {
+  position: absolute;
+  top: 619px;
+  left: calc(50% - 115px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 213px;
+  height: 26px;
+}
+.check-availability {
+  position: absolute;
+  top: 621px;
+  left: 126px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.top-features-box,
+.e-payment-box {
+  position: absolute;
+  left: 18px;
+  width: 392px;
+}
+.top-features-box {
+  top: 661px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  height: 181px;
+  opacity: 0.5;
+}
+.e-payment-box {
+  top: 544px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.47);
+  height: 61px;
+  opacity: 0.3;
+}
+.seller-remarks-box,
+.test-drive-box,
+.v-features-box {
+  position: absolute;
+  top: 1255px;
+  left: 18px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  width: 392px;
+  height: 195px;
+  opacity: 0.5;
+}
+.test-drive-box,
+.v-features-box {
+  top: 1537px;
+  height: 137px;
+}
+.v-features-box {
+  top: 1029px;
+  height: 206px;
+}
+.contact-dealer-box,
+.vin-a0110011001100222 {
+  position: absolute;
+  top: 1062px;
+  left: 31px;
+}
+.contact-dealer-box {
+  top: 865px;
+  left: 18px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  width: 392px;
+  height: 144px;
+  opacity: 0.5;
+}
+.contact-dealer,
+.vehicle-features {
+  position: absolute;
+  top: 872px;
+  left: 31px;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+}
+.vehicle-features {
+  top: 1036px;
+}
+.estimated-payment {
+  position: absolute;
+  top: 553px;
+  left: 25px;
+}
+.mo,
+.personalize-payment {
+  position: absolute;
+  top: 568px;
+  left: 263px;
+}
+.mo {
+  top: 573px;
+  left: 25px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+}
+.seller-remarks-stock {
+  position: absolute;
+  top: 1262px;
+  left: 26px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+}
+.schedule-a-free,
+.top-features {
+  position: absolute;
+  top: 1569px;
+  left: 31px;
+}
+.top-features {
+  top: 668px;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+}
+.dot-icon,
+.dot-icon1 {
+  position: absolute;
+  top: 699px;
+  left: 31px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.dot-icon1 {
+  top: 719px;
+}
+.dot-icon4,
+.dot-icon2,
+.dot-icon3 {
+  position: absolute;
+  top: 739px;
+  left: 31px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.dot-icon4,
+.dot-icon3 {
+  top: 779px;
+}
+.dot-icon4 {
+  top: 819px;
+}
+.dot-icon5,
+.dot-icon6,
+.dot-icon7,
+.dot-icon8,
+.dot-icon9,
+.dot-icon10,
+.dot-icon11 {
+  position: absolute;
+  top: 799px;
+  left: 31px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.dot-icon6,
+.dot-icon7,
+.dot-icon8,
+.dot-icon9,
+.dot-icon10,
+.dot-icon11 {
+  top: 1093px;
+}
+.dot-icon7,
+.dot-icon8,
+.dot-icon9,
+.dot-icon10,
+.dot-icon11 {
+  top: 1113px;
+}
+.dot-icon8,
+.dot-icon9,
+.dot-icon10,
+.dot-icon11 {
+  top: 1133px;
+}
+.dot-icon9,
+.dot-icon10,
+.dot-icon11 {
+  top: 1153px;
+}
+.dot-icon10,
+.dot-icon11 {
+  top: 1173px;
+}
+.dot-icon11 {
+  top: 1193px;
+}
+.dot-icon12 {
+  position: absolute;
+  top: 759px;
+  left: 31px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.white-exterior {
+  position: absolute;
+  top: 694px;
+  left: 42px;
+}
+.beige-interior {
+  position: absolute;
+  top: 714px;
+  left: 42px;
+}
+.city-35-highway,
+.l-4-,
+.wheel-rear-drive {
+  position: absolute;
+  top: 734px;
+  left: 42px;
+}
+.l-4-,
+.wheel-rear-drive {
+  top: 754px;
+}
+.wheel-rear-drive {
+  top: 774px;
+}
+.speed-automatic-transmission {
+  position: absolute;
+  top: 814px;
+  left: 42px;
+}
+.steel-wheels,
+.wheel-disc-brakes {
+  position: absolute;
+  top: 794px;
+  left: 42px;
+}
+.steel-wheels {
+  top: 1087px;
+}
+.lane-keeping-assist,
+.navigation-system {
+  position: absolute;
+  top: 1108px;
+  left: 42px;
+}
+.lane-keeping-assist {
+  top: 1128px;
+}
+.heated-steering-wheel,
+.remote-keyless-entry {
+  position: absolute;
+  top: 1148px;
+  left: 42px;
+}
+.remote-keyless-entry {
+  top: 1168px;
+}
+.exterior-parking-rear {
+  position: absolute;
+  top: 1188px;
+  left: 42px;
+}
+.schedule-a-test {
+  position: absolute;
+  top: 1544px;
+  left: calc(50% - 184px);
+  font-size: var(--font-size-base);
+  font-weight: 500;
+}
+.contact-the-seller-box {
+  position: absolute;
+  top: 1635px;
+  left: 124px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 182px;
+  height: 27px;
+}
+.select-date-and {
+  margin: 0;
+}
+.select-date-and-lines {
+  position: absolute;
+  top: 1588px;
+  left: 31px;
+}
+.contact-the-seller {
+  position: absolute;
+  top: 1640px;
+  left: 140px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-white);
+}
+.more-photos-box {
+  position: absolute;
+  top: 422px;
+  left: 270px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 141px;
+  height: 26px;
+}
+.more-photos {
+  position: absolute;
+  top: 424px;
+  left: 279px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.seller-rating {
+  position: absolute;
+  top: 1470px;
+  left: calc(50% - 125px);
+  width: 250px;
+  height: 47px;
+}
+.contact-seller-box {
+  position: absolute;
+  top: 969px;
+  left: 135px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 160px;
+  height: 26px;
+}
+.contact-seller {
+  position: absolute;
+  top: 971px;
+  left: 142px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.want-to-know-lines {
+  position: absolute;
+  top: 893px;
+  left: 31px;
+}
+.choose-how-you-lines {
+  position: absolute;
+  top: 928px;
+  left: 31px;
+}
+.convenience-packageparking-as-lines {
+  position: absolute;
+  top: 1285px;
+  left: 21px;
+}
+.arrow-sign1,
+.arrow-sign2,
+.back-arrow,
+.arrow-sign {
+  position: absolute;
+  height: 0.42%;
+  width: 3.28%;
+  top: 24.87%;
+  right: 5.79%;
+  bottom: 74.71%;
+  left: 90.93%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.arrow-sign1,
+.arrow-sign2,
+.back-arrow {
+  top: 36.24%;
+  right: 30.21%;
+  bottom: 63.35%;
+  left: 66.51%;
+}
+.arrow-sign2,
+.back-arrow {
+  top: 56.55%;
+  right: 33.7%;
+  bottom: 43.04%;
+  left: 63.02%;
+}
+.back-arrow {
+  height: 0.51%;
+  width: 4.09%;
+  top: 5.37%;
+  right: 93.35%;
+  bottom: 94.13%;
+  left: 2.56%;
+}
+.ltd-box {
+  position: absolute;
+  top: 159px;
+  left: 18px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 181px;
+  height: 26px;
+}
+.limited-time-offer {
+  position: absolute;
+  top: 161px;
+  left: 24px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-white);
+}
+.discount-box {
+  position: absolute;
+  top: 1694px;
+  left: calc(50% - 151px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 302px;
+  height: 39px;
+}
+.get-your-discount {
+  position: absolute;
+  top: 1701px;
+  left: 74px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.save-listing-icon {
+  position: absolute;
+  top: 159px;
+  left: 385px;
+  width: 25px;
+  height: 25px;
+}
+.more-features-box {
+  position: absolute;
+  top: 1206px;
+  left: calc(50% - 75px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 150px;
+  height: 24px;
+}
+.arrow-sign4,
+.arrow-sign5 {
+  position: absolute;
+  height: 0.44%;
+  width: 3.26%;
+  top: 70.11%;
+  right: 25.81%;
+  bottom: 29.45%;
+  left: 60.93%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.arrow-sign5 {
+  top: 94.98%;
+  right: 30.7%;
+  bottom: 4.58%;
+  left: 66.05%;
+}
+.more-features {
+  position: absolute;
+  top: 1209px;
+  left: 150px;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.task5-screen4-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+  height: 1733px;
+}
+.original-task5-frame {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1767px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-montagu-slab);
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./root.css" />
+    <link rel="stylesheet" href="./task5 page2.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@400;500;600&display=swap" />
+  </head>
+  <body>
+    <div class="original-task5-frame">
+      <div class="task5-screen2-frame">
+        <div class="upper-box"></div>
+        <div class="autofinder">AutoFinder</div>
+        <div class="saved-listings">Saved Listings</div>
+        <div class="vehicle-listing-box"></div>
+        <div class="vehicle-listing-box1"></div>
+        <div class="vehicle-listing-box2"></div>
+        <img class="vehicle-image" alt="" src="./images/2024-honda.png" />
+        <img class="vehicle-image1" alt="" src="./images/2023-bmw.png" />
+        <img class="vehicle-image2" alt="" src="./images/2021-mb.png" />
+        <div class="bmw-330i-sedan">
+          <span id = "listing-vehicle-bmw" style = "cursor: pointer;">2023 BMW 330i Sedan</span>
+        </div>
+        <div class="price">$39,557</div>
+        <div class="miles">19,070 miles</div>
+        <div class="honda-civiv-ex">2024 Honda Civiv EX</div>
+        <div class="mb-450-4-matic">2021 MB 450 4-Matic</div>
+        <div class="miles1">53,070 miles</div>
+        <div class="miles2">8,981 miles</div>
+        <div class="price1">$33,751</div>
+        <div class="price2">$45,759</div>
+
+        <div class="navigation-bar">
+          <img class="home-icon" alt="" src="./assests/home-nav-bar.png" />
+          <img class="search-alt-icon" alt="" src="./assests/search-nav-bar.png" />
+          <img class="profile-icon" alt="" src="./assests/profile-icon.png" />
+          <img class="favorite-icon" alt="" src="./assests/favorite-icon.png" />
+          <img class="more-icon" alt="" src="./assests/more-icon.png" />
+          <div class="home">Home</div>
+          <div class="search">Search</div>
+          <div class="profile">Profile</div>
+          <div class="saved">Saved</div>
+          <div class="more">More</div>
+        </div>
+        <div class="view-details-box"></div>
+        <div class="view-details">View Details</div>
+        <img class="arrow-sign" alt="" src="./assests/front-arrow-sign.png" />
+        <div class="view-details-box1"></div>
+        <div class="view-details1">View Details</div>
+        <img class="arrow-sign1" alt="" src="./assests/front-arrow-sign.png" />
+        <div class="view-details-box2"></div>
+        <div class="view-details2">View Details</div>
+        <img class="arrow-sign2" alt="" src="./assests/front-arrow-sign.png" />
+
+        <img class="notification-icon" alt="" src="./assests/notification.png" />
+        <img class="sign-out-icon" alt="" src="./assests/sign-out-icon.png"/>
+        <img class="save-listing-icon" alt="" src="./assests/save-listing-icon.png" />
+        <img class="save-listing-icon1" alt="" src="./assests/save-listing-icon.png" />
+        <img class="save-listing-icon2" alt="" src="./assests/save-listing-icon.png" />
+        <div class="compare-box"></div>
+        <div class="click-to-compare">
+          <span id = "ctc" style = "cursor: pointer;">Click to Compare</span>
+        </div>
+        <div class="ltd-box"></div>
+        <div class="limited-time-offer">Limited Time Offer</div>
+      </div>
+    </div>
+    <script>
+      document.getElementById("ctc").addEventListener("click", function () {
+      window.location.href = "./page3/task5 page3.html";
+      });
+
+      document.getElementById("listing-vehicle-bmw").addEventListener("click", function () {
+      window.location.href = "./page4/task5 page4.html";
+      });
+    </script>
+  </body>
+</html>

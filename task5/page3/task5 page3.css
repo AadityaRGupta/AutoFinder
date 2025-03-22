@@ -1,0 +1,584 @@
+.upper-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(4px);
+  background-color: rgba(60, 60, 60, 0.5);
+  width: 430px;
+  height: 98px;
+}
+.autofinder,
+.compare-listings {
+  position: absolute;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+}
+.autofinder {
+  top: 57px;
+  left: calc(50% - 103px);
+  color: var(--color-orange);
+}
+.compare-listings {
+  top: 125px;
+  left: calc(50% - 150px);
+}
+.model-civic,
+.features,
+.model-bmw,
+.model-matic {
+  position: absolute;
+  font-weight: 500;
+}
+.model-bmw {
+  top: 216px;
+  left: 265px;
+}
+.model-civic,
+.features,
+.model-matic {
+  top: 215px;
+}
+.features {
+  left: 22px;
+  font-size: 14px;
+}
+.model-civic,
+.model-matic {
+  left: 310px;
+}
+.model-civic {
+  left: 379px;
+}
+.features-list {
+  margin: 0;
+}
+.features-box {
+  position: absolute;
+  top: 245px;
+  left: 10px;
+}
+.dot-icon {
+  position: absolute;
+  top: 251px;
+  left: 274px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.dot-icon1,
+.dot-icon2,
+.dot-icon5,
+.dot-icon6,
+.dot-icon7,
+.dot-icon8 {
+  position: absolute;
+  top: 266px;
+  left: 274px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.dot-icon2,
+.dot-icon3,
+.dot-icon4,
+.dot-icon5,
+.dot-icon6,
+.dot-icon7,
+.dot-icon8 {
+  top: 281px;
+}
+.dot-icon3,
+.dot-icon4,
+.dot-icon5,
+.dot-icon6,
+.dot-icon7,
+.dot-icon8 {
+  top: 296px;
+}
+.dot-icon4,
+.dot-icon5,
+.dot-icon6,
+.dot-icon7,
+.dot-icon8 {
+  top: 311px;
+}
+.dot-icon5,
+.dot-icon6,
+.dot-icon7,
+.dot-icon8 {
+  top: 326px;
+}
+.dot-icon6,
+.dot-icon7,
+.dot-icon8 {
+  top: 341px;
+}
+.dot-icon7,
+.dot-icon8 {
+  top: 356px;
+}
+.dot-icon8 {
+  top: 371px;
+}
+.dot-icon9,
+.dot-icon10,
+.dot-icon11,
+.dot-icon12,
+.dot-icon13,
+.dot-icon14,
+.dot-icon15 {
+  position: absolute;
+  top: 386px;
+  left: 274px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.dot-icon10,
+.dot-icon11,
+.dot-icon12,
+.dot-icon13,
+.dot-icon14,
+.dot-icon15 {
+  top: 401px;
+}
+.dot-icon11,
+.dot-icon12,
+.dot-icon13,
+.dot-icon14,
+.dot-icon15 {
+  top: 416px;
+}
+.dot-icon12,
+.dot-icon13,
+.dot-icon14,
+.dot-icon15 {
+  top: 431px;
+}
+.dot-icon13,
+.dot-icon14,
+.dot-icon15 {
+  top: 448px;
+}
+.dot-icon14,
+.dot-icon15 {
+  top: 461px;
+}
+.dot-icon15 {
+  top: 476px;
+}
+.dot-icon16,
+.dot-icon17,
+.dot-icon18,
+.dot-icon19,
+.dot-icon20,
+.dot-icon21,
+.dot-icon22 {
+  position: absolute;
+  top: 504px;
+  left: 274px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.dot-icon17,
+.dot-icon18,
+.dot-icon19,
+.dot-icon20,
+.dot-icon21,
+.dot-icon22 {
+  top: 536px;
+}
+.dot-icon18,
+.dot-icon19,
+.dot-icon20,
+.dot-icon21,
+.dot-icon22 {
+  top: 551px;
+}
+.dot-icon19,
+.dot-icon20,
+.dot-icon21,
+.dot-icon22 {
+  top: 566px;
+}
+.dot-icon20,
+.dot-icon21,
+.dot-icon22 {
+  top: 581px;
+}
+.dot-icon21,
+.dot-icon22 {
+  top: 611px;
+}
+.dot-icon22 {
+  top: 626px;
+}
+.dot-icon23,
+.dot-icon24,
+.dot-icon25,
+.dot-icon26,
+.dot-icon27,
+.dot-icon28,
+.dot-icon29 {
+  position: absolute;
+  top: 251px;
+  left: 334px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.dot-icon24,
+.dot-icon25,
+.dot-icon26,
+.dot-icon27,
+.dot-icon28,
+.dot-icon29 {
+  top: 266px;
+}
+.dot-icon25,
+.dot-icon26,
+.dot-icon27,
+.dot-icon28,
+.dot-icon29 {
+  top: 281px;
+}
+.dot-icon26,
+.dot-icon27,
+.dot-icon28,
+.dot-icon29 {
+  top: 296px;
+}
+.dot-icon27,
+.dot-icon28,
+.dot-icon29 {
+  top: 311px;
+}
+.dot-icon28,
+.dot-icon29 {
+  top: 326px;
+}
+.dot-icon29 {
+  top: 341px;
+}
+.dot-icon30,
+.dot-icon31,
+.dot-icon32,
+.dot-icon33,
+.dot-icon34,
+.dot-icon35,
+.dot-icon36 {
+  position: absolute;
+  top: 356px;
+  left: 334px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.dot-icon31,
+.dot-icon32,
+.dot-icon33,
+.dot-icon34,
+.dot-icon35,
+.dot-icon36 {
+  top: 371px;
+}
+.dot-icon32,
+.dot-icon33,
+.dot-icon34,
+.dot-icon35,
+.dot-icon36 {
+  top: 386px;
+}
+.dot-icon33,
+.dot-icon34,
+.dot-icon35,
+.dot-icon36 {
+  top: 401px;
+}
+.dot-icon34,
+.dot-icon35,
+.dot-icon36 {
+  top: 416px;
+}
+.dot-icon35,
+.dot-icon36 {
+  top: 431px;
+}
+.dot-icon36 {
+  top: 448px;
+}
+.dot-icon37,
+.dot-icon38,
+.dot-icon39,
+.dot-icon40 {
+  position: absolute;
+  top: 461px;
+  left: 334px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.dot-icon38,
+.dot-icon39,
+.dot-icon40 {
+  top: 476px;
+}
+.dot-icon39,
+.dot-icon40 {
+  top: 504px;
+}
+.dot-icon40 {
+  top: 536px;
+}
+.dot-icon45,
+.dot-icon46,
+.dot-icon47,
+.dot-icon48,
+.dot-icon49,
+.dot-icon50,
+.dot-icon51 {
+  position: absolute;
+  top: 596px;
+  left: 334px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.dot-icon46,
+.dot-icon47,
+.dot-icon48,
+.dot-icon49,
+.dot-icon50,
+.dot-icon51 {
+  top: 611px;
+}
+.dot-icon47,
+.dot-icon48,
+.dot-icon49,
+.dot-icon50,
+.dot-icon51 {
+  top: 626px;
+}
+.dot-icon48,
+.dot-icon49,
+.dot-icon50,
+.dot-icon51 {
+  top: 251px;
+  left: 390px;
+}
+.dot-icon49,
+.dot-icon50,
+.dot-icon51 {
+  top: 266px;
+}
+.dot-icon50,
+.dot-icon51 {
+  top: 281px;
+}
+.dot-icon51 {
+  top: 296px;
+}
+.dot-icon52,
+.dot-icon53,
+.dot-icon54,
+.dot-icon55,
+.dot-icon56,
+.dot-icon57,
+.dot-icon58 {
+  position: absolute;
+  top: 311px;
+  left: 390px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.dot-icon53,
+.dot-icon54,
+.dot-icon55,
+.dot-icon56,
+.dot-icon57,
+.dot-icon58 {
+  top: 326px;
+}
+.dot-icon54,
+.dot-icon55,
+.dot-icon56,
+.dot-icon57,
+.dot-icon58 {
+  top: 341px;
+}
+.dot-icon55,
+.dot-icon56,
+.dot-icon57,
+.dot-icon58 {
+  top: 356px;
+}
+.dot-icon56,
+.dot-icon57,
+.dot-icon58 {
+  top: 371px;
+}
+.dot-icon57,
+.dot-icon58 {
+  top: 386px;
+}
+.dot-icon58 {
+  top: 401px;
+}
+.dot-icon59,
+.dot-icon60,
+.dot-icon61,
+.dot-icon62,
+.dot-icon63,
+.dot-icon64,
+.dot-icon65 {
+  position: absolute;
+  top: 416px;
+  left: 390px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.dot-icon60,
+.dot-icon61,
+.dot-icon62,
+.dot-icon63,
+.dot-icon64,
+.dot-icon65 {
+  top: 431px;
+}
+.dot-icon61,
+.dot-icon62,
+.dot-icon63,
+.dot-icon64,
+.dot-icon65 {
+  top: 448px;
+}
+.dot-icon62,
+.dot-icon63,
+.dot-icon64,
+.dot-icon65 {
+  top: 461px;
+}
+.dot-icon63,
+.dot-icon64,
+.dot-icon65 {
+  top: 476px;
+}
+.dot-icon64,
+.dot-icon65 {
+  top: 494px;
+}
+.dot-icon65 {
+  top: 521px;
+}
+.dot-icon66,
+.dot-icon67,
+.dot-icon68,
+.dot-icon69,
+.dot-icon70,
+.dot-icon71,
+.dot-icon72 {
+  position: absolute;
+  top: 536px;
+  left: 390px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 6px;
+  height: 6px;
+}
+.dot-icon67,
+.dot-icon68,
+.dot-icon69,
+.dot-icon70,
+.dot-icon71,
+.dot-icon72 {
+  top: 551px;
+}
+.dot-icon68,
+.dot-icon69,
+.dot-icon70,
+.dot-icon71,
+.dot-icon72 {
+  top: 566px;
+}
+.dot-icon69,
+.dot-icon70,
+.dot-icon71,
+.dot-icon72 {
+  top: 581px;
+}
+.dot-icon70,
+.dot-icon71,
+.dot-icon72 {
+  top: 596px;
+}
+.dot-icon71,
+.dot-icon72 {
+  top: 611px;
+}
+.dot-icon72 {
+  top: 626px;
+}
+.back-arrow {
+  position: absolute;
+  height: 0.57%;
+  width: 4.09%;
+  top: 7.82%;
+  right: 93.58%;
+  bottom: 94.61%;
+  left: 2.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.offer-box {
+  position: absolute;
+  top: 668px;
+  left: calc(50% - 174px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-color: var(--color-orange);
+  width: 349px;
+  height: 59px;
+}
+.offer-still-available-lines {
+  position: absolute;
+  top: 675px;
+  left: 49px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  width: 323px;
+  height: 52px;
+}
+.task5-screen3-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+  height: 982px;
+}
+.original-task5-frame {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 752px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-montagu-slab);
+}
