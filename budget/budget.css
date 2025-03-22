@@ -1,0 +1,461 @@
+.upper-box,
+.background-image {
+  position: absolute;
+  top: 0;
+}
+.background-image {
+  left: 450px;
+  width: 440px;
+  height: 930px;
+}
+.upper-box {
+  left: 458px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  background-color: var(--color-darkslategray);
+  backdrop-filter: blur(4px);
+  width: 430px;
+  height: 117px;
+}
+.autofinder {
+  position: absolute;
+  top: 76px;
+  left: calc(50% + 109px);
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-orange-100);
+}
+.affordable-drive-with {
+  margin: 0;
+}
+.affordable-drive-with-lines {
+  position: absolute;
+  top: 155px;
+  left: 530px;
+  font-size: var(--font-size-13xl);
+  font-weight: 500;
+  color: var(--color-white);
+  text-align: center;
+}
+.enter-budget-box {
+  position: absolute;
+  top: 271px;
+  left: 547px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange-200);
+  width: 250px;
+  height: 35px;
+}
+.budget-to-be-entered-box {
+  position: absolute;
+  top: 357px;
+  left: 560px;
+  background-color: var(--color-darkslategray);
+  width: 260px;
+  height: 50px;
+}
+.line-in-the-box {
+  position: absolute;
+  top: 395.5px;
+  left: 564.5px;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 251px;
+  height: 1px;
+}
+.right-box,
+.left-box {
+  position: absolute;
+  top: 451px;
+  left: 467px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange-200);
+  width: 150px;
+  height: 35px;
+}
+.right-box {
+  left: 700px;
+  width: 170px;
+}
+.vehicle-price {
+  position: absolute;
+  top: 458px;
+  left: calc(50% + 255px);
+}
+.per-month {
+  position: absolute;
+  top: 458px;
+  left: 495px;
+}
+.search-box {
+  position: absolute;
+  top: 556px;
+  left: 587px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange-200);
+  width: 150px;
+  height: 35px;
+}
+.search {
+  position: absolute;
+  top: 562px;
+  left: 635px;
+  font-size: var(--font-size-3xl);
+}
+.enter-your-budget {
+  position: absolute;
+  top: 274px;
+  left: 565px;
+  font-size: var(--font-size-5xl);
+}
+.drive-more-spend {
+  position: absolute;
+  top: 670px;
+  left: 550px;
+  font-size: var(--font-size-3xl);
+}
+.choose-quality-choose {
+  position: absolute;
+  top: 715px;
+  left: 520px;
+}
+.inventory-box {
+  position: absolute;
+  top: 796px;
+  left: calc(50% + 70px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange-200);
+  width: 240px;
+  height: 40px;
+}
+.view-inventory {
+  position: absolute;
+  top: 802px;
+  left: 560px;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  text-align: center;
+}
+.background-image1 {
+  position: absolute;
+  top: 938px;
+  left: 450px;
+  width: 440px;
+  height: 1162px;
+}
+.efficiency-and-economy-lines {
+  position: absolute;
+  top: 974px;
+  left: 520px;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cars-under-9999 {
+  position: absolute;
+  top: 1094px;
+  left: 468px;
+  font-weight: 500;
+}
+.cars-under-19999 {
+  position: absolute;
+  top: 1178px;
+  left: 468px;
+  font-weight: 500;
+}
+.cars-under-24999 {
+  position: absolute;
+  top: 1268px;
+  left: 466px;
+  font-weight: 500;
+}
+.offers-discounts {
+  position: absolute;
+  top: 1354px;
+  left: calc(50% - 3px);
+  font-weight: 500;
+}
+.best-sellers {
+  position: absolute;
+  top: 1094px;
+  left: 736px;
+  font-weight: 500;
+}
+.price-drops {
+  position: absolute;
+  top: 1178px;
+  left: 735px;
+  font-weight: 500;
+}
+.top-searches {
+  position: absolute;
+  top: 1268px;
+  left: 735px;
+  font-weight: 500;
+}
+.browse-used {
+  position: absolute;
+  top: 1352px;
+  left: 736px;
+  font-weight: 500;
+}
+.view-details,
+.view-details1 {
+  position: absolute;
+  top: 1120px;
+  left: 523px;
+  font-size: var(--font-size-xs);
+  color: var(--color-orange-100);
+}
+.view-details1 {
+  top: 1204px;
+}
+.apr-financing-available-lines,
+.leasing-options-available-lines {
+  position: absolute;
+  top: 1764px;
+  left: calc(50% + 65px);
+  font-size: var(--font-size-13xl);
+  font-weight: 500;
+  text-align: center;
+}
+.leasing-options-available-lines {
+  top: 1904px;
+  left: calc(50% + 80px);
+}
+.contact-sellers-today,
+.free-test-drives {
+  position: absolute;
+  top: 1574px;
+  left: calc(50% + 80px);
+  font-size: var(--font-size-13xl);
+  font-weight: 500;
+  text-align: center;
+}
+.contact-sellers-today {
+  top: 2052px;
+  left: calc(50% + 40px);
+}
+.trade-in-options {
+  position: absolute;
+  top: 1664px;
+  left: calc(50% + 80px);
+  font-size: var(--font-size-13xl);
+  text-align: center;
+  font-weight: 500;
+}
+.check-credit-box {
+  position: absolute;
+  top: 1453px;
+  left: calc(50% + 90px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange-200);
+  width: 250px;
+  height: 40px;
+}
+.check-your-credit {
+  position: absolute;
+  top: 1460px;
+  left: 570px;
+  font-weight: 500;
+}
+.view-details2,
+.view-details3,
+.view-details4 {
+  position: absolute;
+  top: 1294px;
+  left: 523px;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  color: var(--color-orange-100);
+}
+.view-details3,
+.view-details4 {
+  top: 1120px;
+  left: 760px;
+}
+.view-details4 {
+  top: 1204px;
+  left: 762px;
+}
+.view-details5 {
+  top: 1380px;
+  left: calc(50% + 57px);
+  font-size: var(--font-size-xs);
+  color: var(--color-orange-100);
+}
+.view-details5,
+.view-details6 {
+  position: absolute;
+  font-weight: 500;
+}
+.view-details6 {
+  top: 1380px;
+  left: calc(50% + 294px);
+  font-size: var(--font-size-xs);
+  color: var(--color-orange-100);
+}
+
+.view-details7 {
+  top: 1294px;
+  left: 760px;
+  font-size: var(--font-size-xs);
+  color: var(--color-orange-100);
+}
+.view-details7 {
+  position: absolute;
+  font-weight: 500;
+}
+.arrow-sign1 {
+  position: absolute;
+  height: 0.46%;
+  width: 1.86%;
+  top: 37.00%;
+  bottom: 62.33%;
+  left: 79.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.search-icon {
+  position: absolute;
+  top: 562px;
+  left: 600px;
+  width: 24px;
+  height: 24px;
+}
+.home-icon {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  z-index: 0;
+}
+.favorite-icon,
+.more-icon,
+.search-alt-icon,
+.profile-icon {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  z-index: 1;
+}
+.favorite-icon,
+.more-icon,
+.profile-icon {
+  z-index: 2;
+}
+.favorite-icon,
+.more-icon {
+  z-index: 3;
+}
+.more-icon {
+  z-index: 4;
+}
+.home {
+  width: 34px;
+  position: absolute;
+  margin: 0 !important;
+  top: 43px;
+  left: 43px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 5;
+}
+.more,
+.profile,
+.saved,
+.search1 {
+  width: 44px;
+  position: absolute;
+  margin: 0 !important;
+  top: 43px;
+  left: 120px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 7;
+}
+.more,
+.profile,
+.saved {
+  width: 42px;
+  left: 203px;
+  z-index: 8;
+}
+.more,
+.saved {
+  width: 37px;
+  left: 287px;
+  z-index: 9;
+}
+.more {
+  width: 32px;
+  left: 372px;
+  z-index: 10;
+}
+.navigation-bar {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 17px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #ffb223;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 438px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 10px var(--padding-mini) 45px;
+  gap: 52px;
+  font-size: var(--font-size-2xs);
+}
+.notification-icon,
+.back-arrow,
+.sign-out-icon {
+  position: absolute;
+  top: 83px;
+  width: 28px;
+  height: 28px;
+}
+.sign-out-icon {
+  left: 461px;
+}
+.notification-icon,
+.back-arrow {
+  left: 855px;
+}
+.back-arrow {
+  height: 0.45%;
+  width: 1.87%;
+  top: 4.2%;
+  right: 43.89%;
+  bottom: 95.35%;
+  left: 54.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.budget-frame {
+  position: absolute;
+  top: 0;
+  left: -458px;
+  width: 942px;
+  height: 2193px;
+}
+.original-budget-frame {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 2193px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-montagu-slab);
+}
