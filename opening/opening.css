@@ -1,0 +1,27 @@
+.autofinder {
+    position: absolute;
+    top: calc(50% - 24px);
+    left: calc(50% - 126px);
+    font-weight: 500;
+}
+.opening-frame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #273B4a;
+    width: 430px;
+    height: 832px;
+    overflow: hidden;
+}
+
+.original-opening-frame {
+    width: 100%;
+    position: relative;
+    height: 832px;
+    text-align: left;
+    font-size: 40px;
+    color: #ffa600;
+    font-family: var(--font-montagu-slab);
+}
+
+
