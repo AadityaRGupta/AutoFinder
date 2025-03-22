@@ -1,0 +1,266 @@
+.upper-box,
+.background-image {
+  position: absolute;
+  top: 0;
+}
+.background-image {
+  left: 0;
+  width: 444px;
+  height: 949px;
+}
+.upper-box {
+  left: 14px;
+  backdrop-filter: blur(4px);
+  background-color: var(--color-darkslategray);
+  width: 430px;
+  height: 117px;
+}
+.autofinder {
+  position: absolute;
+  top: 76px;
+  left: calc(50% - 96px);
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-orange);
+}
+.book-a-test,
+.confirm-your-appointment {
+  position: absolute;
+  font-size: var(--font-size-5xl);
+}
+.book-a-test {
+  top: 142px;
+  left: calc(50% - 111px);
+  font-weight: 600;
+  color: #000;
+}
+.confirm-your-appointment {
+  top: 455px;
+  left: 55px;
+  font-weight: 500;
+}
+.i-confirm-box {
+  position: absolute;
+  top: 500px;
+  left: calc(50% - 78px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 151px;
+  height: 32px;
+}
+.i-confirm {
+  position: absolute;
+  top: 503px;
+  left: calc(50% - 42px);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+}
+.left-box {
+  position: absolute;
+  top: 206px;
+  left: 26px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 170px;
+  height: 31px;
+}
+.select-date {
+  position: absolute;
+  top: 211px;
+  left: 43px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+}
+.right-box {
+  position: absolute;
+  top: 206px;
+  left: 263px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 170px;
+  height: 31px;
+}
+.select-time {
+  position: absolute;
+  top: 211px;
+  left: 280px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+}
+.date-left-box,
+.date-left-box1,
+.date-left-box2,
+.date-left-box3,
+.date-left-box4,
+.time-right-box,
+.time-right-box1,
+.time-right-box2,
+.time-right-box3,
+.time-right-box4 {
+  position: absolute;
+  top: 255px;
+  left: 44px;
+  background-color: var(--color-darkslategray);
+  backdrop-filter: blur(4px);
+  width: 120px;
+  height: 25px;
+}
+.date-left-box1,
+.date-left-box2,
+.date-left-box3,
+.date-left-box4,
+.time-right-box,
+.time-right-box1,
+.time-right-box2,
+.time-right-box3,
+.time-right-box4 {
+  top: 291px;
+}
+.date-left-box2,
+.date-left-box3,
+.date-left-box4,
+.time-right-box,
+.time-right-box1,
+.time-right-box2,
+.time-right-box3,
+.time-right-box4 {
+  top: 327px;
+}
+.date-left-box3,
+.date-left-box4,
+.time-right-box,
+.time-right-box1,
+.time-right-box2,
+.time-right-box3,
+.time-right-box4 {
+  top: 363px;
+}
+.date-left-box4,
+.time-right-box,
+.time-right-box1,
+.time-right-box2,
+.time-right-box3,
+.time-right-box4 {
+  top: 399px;
+  left: 43px;
+}
+.time-right-box,
+.time-right-box1,
+.time-right-box2,
+.time-right-box3,
+.time-right-box4 {
+  left: 297px;
+}
+.time-right-box1,
+.time-right-box2,
+.time-right-box3,
+.time-right-box4 {
+  top: 363px;
+}
+.time-right-box2,
+.time-right-box3,
+.time-right-box4 {
+  top: 327px;
+}
+.time-right-box3,
+.time-right-box4 {
+  top: 291px;
+}
+.time-right-box4 {
+  top: 255px;
+}
+.oct-29th,
+.oct-31st {
+  position: absolute;
+  top: 258px;
+  left: 69px;
+  font-weight: 500;
+}
+.oct-31st {
+  top: 294px;
+}
+.am,
+.am1,
+.nov-10th,
+.nov-2nd,
+.nov-5th,
+.pm,
+.pm1,
+.pm2 {
+  position: absolute;
+  top: 330px;
+  left: 69px;
+  font-weight: 500;
+}
+.am,
+.am1,
+.nov-10th,
+.nov-5th,
+.pm,
+.pm1,
+.pm2 {
+  top: 367px;
+}
+.am,
+.am1,
+.nov-10th,
+.pm,
+.pm1,
+.pm2 {
+  top: 402px;
+}
+.am,
+.am1,
+.pm,
+.pm1,
+.pm2 {
+  top: 258px;
+  left: 328px;
+}
+.am,
+.am1,
+.pm1,
+.pm2 {
+  top: 294px;
+}
+.am1,
+.pm1,
+.pm2 {
+  top: 330px;
+  left: 332px;
+}
+.am1,
+.pm2 {
+  top: 367px;
+}
+.am1 {
+  top: 402px;
+}
+.tick-mark-icon {
+  position: absolute;
+  top: 505px;
+  left: 152px;
+  width: 22px;
+  height: 22px;
+}
+.task3-screen4-frame {
+  position: absolute;
+  top: 0;
+  left: -14px;
+  width: 444px;
+  height: 949px;
+}
+.original-task3-frame {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 949px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-montagu-slab);
+}

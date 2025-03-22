@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./root.css" />
+    <link rel="stylesheet" href="./task3 page5.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@400;500;600&display=swap" />
+  </head>
+  <body>
+    <div class="original-task3-frame">
+      <div class="task3-screen5-frame">
+        <img class="background-image" alt="" src="./images/background-img.png" />
+        <div class="upper-box"></div>
+        <div class="autofinder">AutoFinder</div>
+        <div class="lower-box"></div>
+        <div class="congratulations">Congratulations</div>
+        <div class="your-appointment-has">Your appointment has been confirmed</div>
+        <div class="check-your-email">Check Your email for further details</div>
+        <div class="explore-more-box"></div>
+        <div class="explore-more">
+          <span id = "inventory-page" style = "cursor: pointer;">Explore More</span>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.getElementById("inventory-page").addEventListener("click", function () {
+      window.location.href = "./4 main screen/7 inventory/inventory.html";
+      });
+
+		setTimeout(function () {
+			window.location.href = "./4 main screen/main screen.html";
+		}, 3000);
+    </script>
+  </body>
+</html>

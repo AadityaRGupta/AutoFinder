@@ -1,0 +1,118 @@
+.upper-box,
+.background-image {
+  position: absolute;
+  top: 0;
+}
+.background-image {
+  left: 0;
+  width: 444px;
+  height: 949px;
+}
+.upper-box {
+  left: 14px;
+  backdrop-filter: blur(4px);
+  background-color: rgba(60, 60, 60, 0.5);
+  width: 430px;
+  height: 117px;
+}
+.autofinder {
+  position: absolute;
+  top: 76px;
+  left: calc(50% - 96px);
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-orange);
+}
+.contact-the-seller {
+  top: 166px;
+  left: calc(50% - 116px);
+  font-size: var(--font-size-5xl);
+}
+.contact-the-seller,
+.how-would-you,
+.interested {
+  position: absolute;
+  font-weight: 600;
+  color: var(--color-black);
+}
+.interested {
+  top: 139px;
+  left: calc(50% - 57px);
+  font-size: var(--font-size-5xl);
+}
+.how-would-you {
+  top: 216px;
+  left: 27px;
+  font-size: 22px;
+}
+.call-the-seller-box {
+  position: absolute;
+  top: 263px;
+  left: 30px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 170px;
+  height: 31px;
+}
+.call-the-seller {
+  position: absolute;
+  top: 266px;
+  left: 45px;
+  font-weight: 500;
+}
+.send-an-email-box,
+.book-test-drive-box {
+  position: absolute;
+  top: 263px;
+  left: 247px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 170px;
+  height: 31px;
+}
+.book-test-drive-box {
+  top: 319px;
+  left: 115px;
+  width: 210px;
+}
+.book-a-test,
+.send-an-email {
+  position: absolute;
+  top: 322px;
+  left: 130px;
+  font-weight: 500;
+}
+.send-an-email {
+  top: 266px;
+  left: 262px;
+}
+.start-a-conversation {
+  margin: 0;
+}
+.start-a-conversation-lines {
+  position: absolute;
+  top: 854px;
+  left: calc(50% - 193px);
+  font-weight: 500;
+  text-align: center;
+}
+.task3-screen3-frame {
+  position: absolute;
+  top: 0;
+  left: -14px;
+  width: 444px;
+  height: 949px;
+}
+.original-task3-frame {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 949px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-montagu-slab);
+}
