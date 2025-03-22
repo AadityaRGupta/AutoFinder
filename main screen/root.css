@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-montagu-slab: "Montagu Slab";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+  --font-size-9xl: 28px;
+  --font-size-2xs: 11px;
+  --font-size-5xl: 24px;
+  --font-size-3xs: 10px;
+  --font-size-7xl: 26px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-orange-100: #ffa600;
+  --color-orange-200: #f9a200;
+  --color-darkslategray-100: rgba(60, 60, 60, 0.2);
+  --color-darkslategray-200: rgba(60, 60, 60, 0.5);
+
+  /* Paddings */
+  --padding-mini: 15px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+}
