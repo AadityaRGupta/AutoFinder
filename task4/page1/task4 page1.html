@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./root.css" />
+    <link rel="stylesheet" href="./task4 page1.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@400;500;600&display=swap" />
+  </head>
+  <body>
+    <div class="original-task4-frame">
+      <div class="task4-screen1-frame">
+          <div class="upper-box"></div>
+          <div class="autofinder">AutoFinder</div>
+          <div class="saved-listings">Saved Listings</div>
+          <div class="vehicle-listing-box"></div>
+          <div class="vehicle-listing-box1"></div>
+          <img class="vehicle-image" alt="" src="./images/2023-toyota.png"/>
+          <img class="vehicle-image1" alt="" src="./images/2023-vw.png" />
+
+          <div class="toyota-rav4-le">
+            <span id = "listing-vehicle-rav4" style = "cursor: pointer;">2023 Toyota RAV4 LE</span>
+          </div>
+          <div class="miles">29,070 miles</div>
+          <div class="price">$29,557</div>
+          <div class="view-details-box"></div>
+          <div class="view-details">View Details</div>
+          <img class="arrow-sign" alt="" src="./assests/front-arrow-sign.png" />
+          <div class="view-details-box1"></div>
+          <div class="view-details1">View Details</div>
+          <img class="arrow-sign1" alt="" src="./assests/front-arrow-sign.png" />
+          <div class="vw-tiguan-se">
+            <span id = "listing-vehicle-tiguan" style = "cursor: pointer;">2022 VW Tiguan SE</span>
+          </div>
+          <div class="price1">$25,202</div>
+          <div class="miles1">45,157 miles</div>
+
+          <div class="navigation-bar">
+            <img class="home-icon" alt="" src="./assests/home-nav-bar.png" />
+            <img class="search-alt-icon" alt="" src="./assests/search-nav-bar.png" />
+            <img class="profile-icon" alt="" src="./assests/profile-icon.png" />
+            <img class="favorite-icon" alt="" src="./assests/favorite-icon.png" />
+            <img class="more-icon" alt="" src="./assests/more-icon.png" />
+            <div class="home">Home</div>
+            <div class="search">Search</div>
+            <div class="profile">Profile</div>
+            <div class="saved">Saved</div>
+            <div class="more">More</div>
+          </div>
+          <img class="notification-icon" alt="" src="./assests/notification.png" />
+          <img class="sign-out-icon" alt="" src="./assests/sign-out-icon.png" />
+          <img class="save-listing-icon" alt="" src="./assests/save-listing-icon.png" />
+          <img class="save-listing-icon1" alt="" src="./assests/save-listing-icon.png" />
+        </div>
+      </div>
+    </div>
+    <script>
+      document.getElementById("listing-vehicle-rav4").addEventListener("click", function () {
+      window.location.href = "./page2/task4 page2.html";
+      });
+
+      document.getElementById("listing-vehicle-tiguan").addEventListener("click", function () {
+      window.location.href = "./page3/task4 page3.html";
+      });
+    </script>
+  </body>
+</html>
