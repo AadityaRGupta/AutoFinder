@@ -2,7 +2,18 @@ body {
     margin: 0;
     line-height: normal;
 }
+
 :root {
     /* fonts */
     --font-montagu-slab: 'Montagu Slab';
+    
+    /* font sizes */
+    --font-size-xl: 20px;
+    
+    /* Colors */
+    --color-white: #fff;
+    --color-darkslategray: rgba(60, 60, 60, 0.5);
+    
+    /* Border radiuses */
+    --br-xl: 20px;
 }
